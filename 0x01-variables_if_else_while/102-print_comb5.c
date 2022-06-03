@@ -13,7 +13,7 @@ int main(void)
 	int ten;
 	int bas;
 
-for ( tho = 0 ; tho < 10 ; tho++)
+for ( tho = 0 ; tho <= 10 ; tho++)
 {	
 
 	for (hun = 0 ; hun <= 10 ; hun++)
@@ -25,10 +25,10 @@ for ( tho = 0 ; tho < 10 ; tho++)
 			{
 				putchar('0' + tho);
 				putchar('0' + hun);
-				putchar(16);
+				putchar(32);
 				putchar('0' + ten);
 				putchar('0' + bas);
-				if (!(tho == 9 && hun == 8))
+				if (!(tho == 9 && hun == 9))
 				{
 					putchar(',');
 					putchar(32);
